@@ -1,0 +1,171 @@
+.pageContainer {
+  text-align: center;
+  display: flex;
+  height: 100vh;
+  overflow-y: auto;
+  background-color: #0D1117;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.formContainer {
+  display: flex;
+  flex-direction: column;
+  border: solid black;
+  border-width: 0.5px;
+  font-family: 'Poppins';
+  font-size: 14px;
+  background-color: #161B22;
+  border-radius: 10px;
+  height: 60%;
+  width: 30%;
+  position: relative;
+}
+
+.formContainer h1{
+  font-size: 30px;
+  text-decoration: wavy;
+  color: white;
+}
+
+.formContainer label {
+  position: absolute;
+  left: 10%;
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.formContainer a {
+  color: #366CB4;
+}
+
+.formContainer input {
+  color: white;
+  background-color: #0D1117;
+  height: 15%;
+  width: 80%;
+  border-style: ridge;
+  border-radius: 3px;
+  font-size: 18px;
+}
+
+ button {
+      appearance: button;
+      background-color: #081b58;
+      border: solid transparent;
+      border-radius: 16px;
+      border-width: 0 0 4px;
+      box-sizing: border-box;
+      color: #FFFFFF;
+      cursor: pointer;
+      display: inline-block;
+      margin: 0;
+      outline: none;
+      overflow: visible;
+      padding: 9px 10px;
+      text-align: center;
+      text-transform: uppercase;
+      touch-action: manipulation;
+      transform: translateZ(0);
+      transition: filter .2s;
+      user-select: none;
+      -webkit-user-select: none;
+      vertical-align: middle;
+      white-space: nowrap;
+    }
+
+    button:after {
+      background-clip: padding-box;
+      background-color: #186497;
+      border: solid transparent;
+      border-radius: 16px;
+      border-width: 0 0 4px;
+      bottom: -4px;
+      content: "";
+      left: 0;
+      position: absolute;
+      right: 0;
+      top: 0;
+      z-index: -1;
+    }
+
+    button:main,
+    button:focus {
+      user-select: auto;
+    }
+
+    button:disabled {
+      cursor: auto;
+    }
+
+    button:active:after {
+      border-width: 0 0 0px;
+    }
+
+    button:active {
+      padding-bottom: 10px;
+    }
+
+
+#map {
+  height: 100vh;
+  width: 120vh;
+  margin-right: auto;
+}
+
+.mapContainer  {
+  display: flex;
+  background-color: #0D1117;
+  justify-content: space-evenly;
+  align-items: flex-start;
+}
+
+.formAdd {
+  border: solid black;
+  border-width: 0.5px;
+  font-family: 'Poppins';
+  font-size: 14px;
+  background-color: #161B22;
+  border-radius: 10px;
+  border: solid black;
+  border-width: 0.5px;
+  background-color: #161B22;
+  text-align: center;
+  height: 60vh;
+  width: 30vw;
+}
+
+.formAdd input {
+  color: white;
+  background-color: #0D1117;
+  height: 5%;
+  width: 70%;
+  border-style: ridge;
+  border-radius: 3px;
+  font-size: 18px;
+}
+
+
+.rightUI {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-right: auto;
+}
+
+.formAdd h1 {
+  font-size: 22px;
+  text-decoration: wavy;
+  color: white;
+}
+
+.formAdd label {
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.mapContainer a {
+  color: #366CB4;
+}
