@@ -1,8 +1,4 @@
-# desafio-siapesq-estagio-2024-1
-
-Prazo: 2 semanas
-## Frontend
-
+# Desafio SIAPESQ 2024
 Desenvolva uma aplicação web utilizando React e Leaflet que exiba um mapa interativo com marcadores de diferentes locais. Cada marcador deve exibir um popup contendo informações sobre o local, como nome, descrição e as coordenadas.
 
 ### Requisitos:
@@ -15,33 +11,16 @@ Desenvolva uma aplicação web utilizando React e Leaflet que exiba um mapa inte
 * Ao clicar em um marcador, um popup deve ser exibido contendo informações sobre o local correspondente.
 * O código deve ser organizado e limpo, seguindo as boas práticas de desenvolvimento.
 
-## Backend 
-  Desenvolva uma REST API em nodejs ou python que sirva os casos de uso da aplicação frontend
-### Requisitos:
-* Endpoints:
-  * Para cadastro de usuários(nome,email,senha)
-  * Para realizar login
-  * Utilize JWT para bloquear usuários não logados de acessarem as rotas protegidas
-  * **Rotas Protegidas por Token**:
-    * Para cadastro de local(nome,descrição,latitude,longitude)
-    * Para deletar local
-    * Para listar locais
-  * Utilize um banco de dados relacional(postgresql,mysql,etc)
+## Como rodar o projeto
 
-### Entrega
-* Faça uma fork desse projeto e criei uma branch com o seu nome e sobrenome(exemplo: patrick-souza)
+1. Certifique-se que possui o Node.js instalado na máquina
+2. Clone o repositório
+3. Instale as dependências
+4. Execute o projeto
 
-* **Lembre-se de colocar um readme.md explicando como rodar o projeto** 
-
-* Siga o padrão do [**EXEMPLO**](https://github.com/PatrickFS18/desafio-siapesq-estagio-2024-1)
-  
-### Dúvidas
-Em caso de dúvida abra um issue no repositório do desafio e atribuia a @chipskein e/ou @PatrickFS18
-
-[exemplo-de-duvida](https://github.com/siapesq/desafio-siapesq-estagio-2024-1/issues/2)
-
-
-
-
-
-
+```console
+git clone https://github.com/marcoscfreitas/desafio-siapesq-estagio-2024-1.git
+cd desafio-siapesq-estagio-2024-1
+npm install
+npm start
+``````
